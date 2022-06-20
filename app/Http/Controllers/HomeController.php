@@ -11,7 +11,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('welcome', ['file' => 'B6XyOGckN0WpPS5z']);
+        return view('welcome');
     }
 
     public function snap(Request $request)
